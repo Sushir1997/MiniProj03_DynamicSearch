@@ -22,6 +22,7 @@ public class PlanMgmtController {
 		System.out.println("Post mapping started");
 		System.out.println("Post mapping started1");
 		System.out.println("Post mapping started2");
+		System.out.println("Post mapping started3");
 	 PlanDtlsEntity entity=new  PlanDtlsEntity();
 	 entity.setPlanName(binding.getPlanName());
 	 entity.setPlanCategory(binding.getPlanCategory());
