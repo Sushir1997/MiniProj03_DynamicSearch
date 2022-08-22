@@ -18,6 +18,7 @@ public class PlanMgmtController {
 	private PlanMgmtServiceImpl service;
 @PostMapping("/createplan")
 	public String createPlan(@RequestBody  PlanDtlsEntityBinding binding) {
+	System.out.println("Create Plan Method started");
 	 PlanDtlsEntity entity=new  PlanDtlsEntity();
 	 entity.setPlanName(binding.getPlanName());
 	 entity.setPlanCategory(binding.getPlanCategory());
